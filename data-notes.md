@@ -9,7 +9,12 @@
 
 ## OSM roads 
 - Query: highway = within minna (Chanchaga and Bosso LGAs)
-- Extracted: 11/09/2026
+- Extracted: 11/09/2026 via QuickOSM, highway =*
 - 9,651 features, lines
 - Many have no surface tag, so paved and unpaved cannot be separated everywhere
 - Coverage looks good in the built-up area, sparse at the edges. 
+COMPLETENESS: Good in built-up areas, sparse at the edge
+CURRENCY:
+POSITIONAL: Roads align well with shapefile, no visible offset
+ATTRIBUTE:
+FITNESS: 
