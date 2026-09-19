@@ -13,8 +13,14 @@
 - 9,651 features, lines
 - Many have no surface tag, so paved and unpaved cannot be separated everywhere
 - Coverage looks good in the built-up area, sparse at the edges. 
-COMPLETENESS: Good in built-up areas, sparse at the edge
-CURRENCY:
-POSITIONAL: Roads align well with shapefile, no visible offset
-ATTRIBUTE:
-FITNESS: 
+- COMPLETENESS: Good in built-up areas, sparse at the edge
+- CURRENCY:
+- POSITIONAL: Roads align well with shapefile, no visible offset
+- ATTRIBUTE:
+- FITNESS: 
+## CRS and Preparation
+- All source layers arrived in EPSG: 4326
+- LStudy area: Minna, extracted from GRID3 LGAs
+- All layers clipped to study area, then reprojected to EPSG:32631 (UTM 31N)
+- Area check: Minna 6784km2 matches published figure
+- Working files in data/processed/, raw files untouched. 
