@@ -13,7 +13,7 @@ Minna is expanding as population and development increase, creating pressure on 
 
 - Landsat satellite imagery – 30 m resolution – approximately 10–50 MB
 - Sentinel-2 satellite imagery – 10 m resolution – approximately 20–100 MB 
-- Minna/Niger State administrative boundaries – GRID3 – approximately 1–12 MB 
+- Minna/Niger State administrative boundaries – GADM – approximately 3 MB 
 - Settlement/built-up extents – GRID3 – approximately 5–40 MB 
 - Road network – OpenStreetMap – approximately 1–10 MB 
 - Population data – WorldPop – approximately 5–30 MB 
@@ -23,7 +23,7 @@ Minna is expanding as population and development increase, creating pressure on 
 
 - Landsat – Google Earth Engine: https://developers.google.com/earth-engine/datasets/catalog/landsat
 - Sentinel-2 – Google Earth Engine: https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED
-- Administrative boundaries – GRID3 Nigeria: https://grid3.org/geospatial-data-nigeria
+- Administrative boundaries – https://gadm.org/download_country.html 
 - Settlement extents – GRID3 Nigeria: https://grid3.org/geospatial-data-nigeria
 - Road network – OpenStreetMap: https://www.openstreetmap.org/
 - Population – WorldPop: https://hub.worldpop.org/
