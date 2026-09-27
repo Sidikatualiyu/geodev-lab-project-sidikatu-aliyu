@@ -10,17 +10,17 @@
 ## OSM roads 
 - Query: highway = within minna (Chanchaga and Bosso LGAs)
 - Extracted: 27/09/2026 via QuickOSM, highway =*
-- 9,422 features, lines
+- 14,111 features, lines
 - Many have no surface tag, so paved and unpaved cannot be separated everywhere
-- Coverage looks good in the built-up area, sparse at the edges. 
-- COMPLETENESS: Good in built-up areas, sparse at the edge
-- CURRENCY:
-- POSITIONAL: Roads align well with shapefile, no visible offset
-- ATTRIBUTE:
-- FITNESS: 
+- Coverage looks good in the built-up area, sparse at the edges.
+- COMPLETENESS: Good in built-up areas, sparse at the edge.
+- CURRENCY: Most edits are between 2014 - 2026, new roads in minna town are present
+- POSITIONAL: Roads align well with satellite imagery, no visible systematic offset.
+- ATTRIBUTE: 18% of highways are unclassified, others classified as track, secondary, primary, residential, path, foothway and bridleway. 
+- FITNESS: Adequate for urban growth assessment in Minna. 
 ## CRS and Preparation
 - All source layers arrived in EPSG: 4326
-- LStudy area: Minna, extracted from GRID3 LGAs
-- All layers clipped to study area, then reprojected to EPSG:32631 (UTM 31N)
-- Area check: Minna 6784km2 matches published figure
+- LStudy area: Minna, extracted from GADM LGAs
+- All layers clipped to study area, then reprojected to EPSG:32632 (UTM 32N)
+- Area check: Minna 1657km2 matches published figure
 - Working files in data/processed/, raw files untouched. 
