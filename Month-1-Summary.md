@@ -1,11 +1,17 @@
-#Question
-What is the extent of Urban Expansion in Minna?
-#Operation 
-Buffering because I only have highway data for now
-#Expectations
+##General Project Question
+How has urban growth in Minna, Niger State changed spatially and temporally over the past years, and where is the city experiencing the greatest expansion?
+##Month one Question
+Which settlements in Minna lies within 100m from the highway?
+
+##Operations
+-Buffering
+-Spatial join
+-Intersection
+-Union
+
+##Expectations
 The result was as expected. I was able to visualize 100m buffer around highways in Minna
-#Needed Data 
--Settlement/Builtup extents
+##Needed Data 
 -Satellite Imageries
 -Population Data 
 -Elevation
