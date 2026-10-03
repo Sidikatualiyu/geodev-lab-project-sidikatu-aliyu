@@ -5,5 +5,5 @@ How has urban growth in Minna, Niger State changed spatially and temporally over
 This will be built in the next twelve months with GeoDev Lab Africa, cohort one. 
 See project-brief.md for the full brief.
 
-##Month 2: development environment and early Python
+## Month 2: development environment and early Python
 -Week 5: set up Python, VS Code and the terminal. hello.py runs. 
