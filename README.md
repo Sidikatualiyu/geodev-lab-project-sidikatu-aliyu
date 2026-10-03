@@ -1,4 +1,4 @@
-## Sidikatu Apliyu - Pod 1
+## Sidikatu Aliyu - Pod 1
 ## geodev-lab-project-sidikatu-aliyu
 How has urban growth in Minna, Niger State changed spatially and temporally over the past years, and where is the city experiencing the greatest expansion?
 
