@@ -11,3 +11,5 @@ See project-brief.md for the full brief.
 -Week 6: set up the project with uv and addes pandas. check.py prints the pandas version. 
 
 -Week 7: analyse.py reads ward.csv, converts each area and classify each ward.
+
+-Week 8: inspect_data.py summarizes population and area in my wards.csv data 
