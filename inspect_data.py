@@ -14,12 +14,29 @@ print("Smallest:", min(values))
 print("Largest:", max(values))
 print("Count:", len(values))
 
+import csv
+with open("wards.csv", encoding="utf-8-sig") as f:
+    rows = list(csv.DictReader(f))
+
+values = []
+for row in rows:
+    raw = row["area_km2"].strip()
+    if raw == "":
+        continue
+    values.append(float(raw))
+
+print("Smallest:", min(values))
+print("Largest:", max(values))
+print("Count:", len(values))
+
+import csv
+
 def inspect_column(filename, column):
     with open(filename, encoding="utf-8-sig") as f:
         rows = list(csv.DictReader(f))
     values = []
     for row in rows:
-        raw = row[pop_density_per_km2].strip()
+        raw = row[column].strip()
         if raw == "":
             continue
         values.append(float(raw))
@@ -28,9 +45,11 @@ def inspect_column(filename, column):
             "Largest": max(values),
             "Count": len(values)
         }
-    result = inspect_column("wards.csv", "area_km2")
-    pop_density_per_km2_result = inspect_column("wards.csv", "pop_density_per_km2")
-    mean_temp_c__result = inspect_column("wards.csv", "mean_temp_c")
+result = inspect_column("wards.csv", "area_km2")
+print(result)
 
-    print("pop_density_per_km2:", pop_density_per_km2_result)
-    print("mean_temp_c:", mean_temp_c__result)
+area_result = inspect_column("wards.csv", "area_km2")
+pop_result = inspect_column("wards.csv", "population")
+
+print("area:", area_result)
+print("population:", pop_result)
