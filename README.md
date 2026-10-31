@@ -12,4 +12,17 @@ See project-brief.md for the full brief.
 
 -Week 7: analyse.py reads ward.csv, converts each area and classify each ward.
 
--Week 8: inspect_data.py summarizes population and area in my wards.csv data 
+-Week 8: inspect_data.py summarizes population and area in my wards.csv data. 
+
+-Week 9: summary.py consolidated the initial inspect_data.py and summarizes population and area km2 in my wards.csv data. 
+
+## Month 2 reflections 
+- Month 2 has been quite insightful
+
+- It has sharpened my python basic skills
+
+- I like the fact that scripts can be consolidated and still work.
+
+- Writing scripts independently dtill feels fuzzy but will definitely practice more.
+
+- The capstone taught me how to summarise data especially data from my month 1 (wards.csv), it gives me an idea of how to play around with data, summarise it and gin insights from it. 
