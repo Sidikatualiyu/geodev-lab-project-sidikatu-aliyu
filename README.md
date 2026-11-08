@@ -26,3 +26,6 @@ See project-brief.md for the full brief.
 - Writing scripts independently dtill feels fuzzy but will definitely practice more.
 
 - The capstone taught me how to summarise data especially data from my month 1 (wards.csv), it gives me an idea of how to play around with data, summarise it and gin insights from it. 
+
+## Month 3: geospatial Python and automation
+- Week 10: Geopandas, Loaded, checked, joined and mapped population and health_facilities 
