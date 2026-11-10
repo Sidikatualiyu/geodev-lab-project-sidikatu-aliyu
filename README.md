@@ -29,3 +29,6 @@ See project-brief.md for the full brief.
 
 ## Month 3: geospatial Python and automation
 - Week 10: Geopandas, Loaded, checked, joined and mapped population and health_facilities 
+
+-Yes, the bounds kept the data where I expected 
+-Carried out the independednt challenge: my_explore, my_point and my map
