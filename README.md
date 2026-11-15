@@ -30,5 +30,10 @@ See project-brief.md for the full brief.
 ## Month 3: geospatial Python and automation
 - Week 10: Geopandas, Loaded, checked, joined and mapped population and health_facilities 
 
+    # Week 10 independent Challenge
 -Yes, the bounds kept the data where I expected 
 -Carried out the independednt challenge: my_explore, my_point and my map
+
+- Week 11: CRS and spatial operations. Reprojected to ESPG:32631 and measured area
+
+  # Week 11 independent Challenge
