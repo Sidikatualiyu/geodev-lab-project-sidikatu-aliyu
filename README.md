@@ -37,3 +37,5 @@ See project-brief.md for the full brief.
 - Week 11: CRS and spatial operations. Reprojected to ESPG:32631 and measured area
 
   # Week 11 independent Challenge
+
+-Week 12: Rasters. Computed NDVI and summarised it per polygon 
