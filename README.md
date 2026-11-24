@@ -39,3 +39,6 @@ See project-brief.md for the full brief.
   # Week 11 independent Challenge
 
 -Week 12: Rasters. Computed NDVI and summarised it per polygon 
+
+  # Week 12 independent Challenge
+"LC08_L2SP_189053_20251205_20251216_02_T1 | 2025-12-05 | land cloud: 2.43% | scene cloud: 2.43%"
